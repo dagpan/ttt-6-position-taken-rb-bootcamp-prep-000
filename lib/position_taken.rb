@@ -3,12 +3,12 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
 def position_taken?(board, play)
-  if board[play] != " " || "" || nil
-     if board[play] == "X" || "O"
-        return true
+  if board[play] != "X" || "O"
+     if board[play] == " " || "" || nil
+        return false
      end
   else
-     return false
+     return true
 #  elsif board[play] == "X" || "O"
 #    return true
 # if board[play] == "X" || "O"
