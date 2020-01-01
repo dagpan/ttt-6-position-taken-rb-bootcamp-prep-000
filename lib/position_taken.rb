@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 
-board[" "," "," "," "," "," "," "," "," "]
+board = [" "," "," "," "," "," "," "," "," "]
 
 def position_taken?(board, play)
   if board[play] == " " || ""
