@@ -2,7 +2,7 @@
 
 board[" "," "," "," "," "," "," "," "," "]
 
-def position_taken?(board, )
-  
-  
+def position_taken?(board, play)
+  if board[play] == " " || ""
+  end
 end
