@@ -9,7 +9,8 @@ def position_taken?(board, play)
 #    return true
   if board[play] == "X" || "O"
      return true
-  elsif board[play] == " " || "" || nil
+  end
+  if board[play] == " " || "" || nil
     return false
   end
 end
