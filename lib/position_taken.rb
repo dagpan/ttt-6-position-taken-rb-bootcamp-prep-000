@@ -5,9 +5,7 @@ board = [" "," "," "," "," "," "," "," "," "]
 def position_taken?(board, play)
   if board[play] == " " || "" || nil
      return false
-  if board[play] == "X" || "O"
+  else
     return true
-  elsif board[play] == " " || ""
-    return false
   end
 end
